@@ -1,0 +1,42 @@
+.hero{
+   background: url(../../img/Bitmap.jpg) center/cover;
+   height: 910px;
+
+   &__info{
+    text-align: center;
+    opacity: 1.8;
+    height: 570px;
+     padding: 250px 0 100px;
+     background: rgba(48, 25, 25, 0.201);
+     -webkit-box-shadow: 12px -3px 80px 37px rgba(34, 60, 80, 0.13);
+-moz-box-shadow: 12px -3px 80px 37px rgba(34, 60, 80, 0.13);
+box-shadow: 12px -3px 80px 37px rgba(34, 60, 80, 0.13);
+
+    &-title{
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 52px;
+        font-weight: 700;
+    }
+    &-text{
+        color: #F7F3F2;
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: 300;
+       
+    }
+    &-btn{
+        color: #FFF;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 700;
+        padding: 12px 19px ;
+        border-radius: 40px;
+        background: #FF4E50;
+        border: none;
+    }
+  
+   }
+
+}
+

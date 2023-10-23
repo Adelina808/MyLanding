@@ -1,0 +1,47 @@
+.dream-title {
+  color: #444;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 100px 0 25px;
+}
+.dream__info {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.dream__info__items {
+  position: relative;
+}
+.dream__info__items__content {
+  position: absolute;
+  bottom: 0;
+  padding: 0 25px;
+}
+.dream__info__items__content-btn {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  padding: 4px 13px;
+  border-radius: 40px;
+  background: #FF4E50;
+  border: none;
+}
+.dream__info__items__content-title {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  max-width: 250px;
+}
+.dream__info__items__content-text {
+  color: #E3E3E3;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  max-width: 250px;
+}/*# sourceMappingURL=dream.css.map */

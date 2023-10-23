@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import "./components/fonts.scss";
 @import "./components/header.scss";
-
+@import "./components/hero.scss";
+@import "./components/dream.scss";
 
 
 body{
@@ -9,7 +11,11 @@ body{
 }
 
 .container{
-    max-width: 1458px;
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px;    
+}
+img{
+    width: 100%;
+    height: 100%;
 }
