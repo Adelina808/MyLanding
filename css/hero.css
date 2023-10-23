@@ -31,4 +31,10 @@
   border-radius: 40px;
   background: #FF4E50;
   border: none;
+}
+
+@media screen and (max-width: 514px) {
+  .hero__info-title {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=hero.css.map */
